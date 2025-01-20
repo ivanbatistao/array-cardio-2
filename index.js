@@ -24,6 +24,8 @@ console.log(isSomeoneAtLeastAbove19);
 // Array.prototype.find()
 // Find is like filter, but instead returns just the one you are looking for
 // Find the comment with the ID of 823423
+const foundId = comments.find((comment) => comment.id === 823423);
+console.log(foundId);
 
 // Array.prototype.findIndex()
 // Find the comment with this ID
